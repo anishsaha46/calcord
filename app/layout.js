@@ -1,13 +1,11 @@
 import { Inter } from "next/font/google";
+import Header from "../components/Header";
 import "./globals.css";
-
-
 
 export const metadata = {
   title: "Calcord",
   description: "Clone of Calendly",
 };
-
 const inter=Inter({subsets:["latin"]});
 export default function RootLayout({ children }) {
   return (
@@ -16,6 +14,7 @@ export default function RootLayout({ children }) {
         className={`inter.className`}
       >
       {/* header */}
+      <Header />
         <main className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
           {children}
         </main>
