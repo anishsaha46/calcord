@@ -25,7 +25,7 @@ const features = [
 ];
 
 const howItWorks = [
-  { step: "Sign Up", description: "Create your free Schedulrr account" },
+  { step: "Sign Up", description: "Create your free Calcord account" },
   {
     step: "Set Availability",
     description: "Define when you're available for meetings",
